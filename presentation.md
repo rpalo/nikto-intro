@@ -14,15 +14,16 @@
 - [Homepage](https://cirt.net/Nikto2)
 - [Git Hub](https://github.com/sullo/nikto)
 - [Documentation](https://cirt.net/nikto2-docs/)
+- [This introduction project repo](https://github.com/rpalo/nikto-intro)
 
 # Installation
 
 - `wget` + `tar`
 - `git`
-- `apt` 👍 👍 👍
+- `apt`
 
 # Usage
 
-- Basic: `nikto -host [IP ADDRESS OR DOMAIN NAME]
+- Basic: `nikto -host [IP ADDRESS OR DOMAIN NAME]`
 - Help: `nikto -H` or `man nikto` for more
 - Example: `nikto -h localhost -root /DVWA`

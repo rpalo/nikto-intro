@@ -2,7 +2,7 @@ report.pdf: README.md
 	pandoc README.md -o report.pdf -f markdown-implicit_figures
 
 presentation.pptx: presentation.md
-	pandoc presentation.md -o presentation.pptx --reference-doc ppt-template.pptx
+	pandoc presentation.md -o presentation.pptx
 
 .PHONY: all clean
 
